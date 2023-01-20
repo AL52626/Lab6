@@ -5,10 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "npm run build && gh-pages -d dist"
+    "lint": "vue-cli-service lint"
   },
-  "homepage": "https://al52626.github.io/lab-vue",
   "dependencies": {
     "@mdi/font": "5.9.55",
     "autoprefixer": "^10",
