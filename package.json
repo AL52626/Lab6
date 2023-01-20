@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "homepage": "https://al52626.github.io/lab-vue",
   "dependencies": {
@@ -35,7 +35,8 @@
     "tailwindcss": "^3.2.4",
     "vue-cli-plugin-tailwind": "~3.0.0",
     "vue-cli-plugin-vuetify": "~2.5.8",
-    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0",
+    "execa": "latest"
   },
   "eslintConfig": {
     "root": true,
